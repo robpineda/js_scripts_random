@@ -1,1 +1,1 @@
-# js_scripts_random
+1. Download the svg files of all the pages of a campusbook.co.kr ebook.

@@ -4,7 +4,7 @@ const downloadedSvgUrls = new Set();
 // Base URL or the book
 const baseUrl = 'https://e-alice-campusbook.s3.ap-northeast-2.amazonaws.com/resources/contents/prod/cms/book/20230926/CT-20230926150955098/source/R1/20230926155016/ebook/OEBPS/pp_content/content_';
 
-// Generate all 474 SVG URLs
+// Generate all 474 (this book has 474 pages) SVG URLs
 const svgUrls = Array.from({ length: 474 }, (_, i) => {
     const pageNum = String(i + 1).padStart(4, '0');
     return `${baseUrl}${pageNum}.svg`;
